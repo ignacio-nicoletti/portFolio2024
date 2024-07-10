@@ -1,0 +1,29 @@
+.contain {
+  color: #dadada;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 3rem;
+}
+
+.BoxContain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:50px;
+}
+
+.boxContact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #171919;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.boxContact p {
+  color: #f6ba08;
+  margin: 0;
+}

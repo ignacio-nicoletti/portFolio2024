@@ -1,0 +1,63 @@
+.grilla {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    align-items: flex-start;
+    margin-block: 1rem;
+    padding: 1rem;
+  }
+  .tecnologies {
+    display: flex;
+    width: 22rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fdcf41;
+  }
+  
+  .iconTecnologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .tecnologies img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  .DivIconTecnologies {
+    position: relative;
+    display: flex;
+  }
+  .DivIconTecnologies img {
+    transition: 1s;
+  }
+  .DivIconTecnologies:hover img {
+    transform: scale(1.2);
+    transition: 1s;
+  }
+  
+  .tecnologies img:hover + .titleTech,
+  .titleTech:hover {
+    display: flex;
+    background-color: black;
+    color: #fdcf41;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .iconTecnologies a {
+    text-decoration: none;
+    color: black;
+  }
+  .titleTech {
+    display: none;
+  }

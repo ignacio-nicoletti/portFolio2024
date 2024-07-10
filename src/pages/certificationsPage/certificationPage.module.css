@@ -1,0 +1,83 @@
+.contain {
+  padding-top: 10%;
+}
+.certifications {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 5%;
+}
+
+.title {
+  font-size: 2rem;
+  color: #fdcf41;
+}
+
+.certifications_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.certifications_img img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.certCarrousel {
+  display: flex;
+  position: relative; /* Añade posición relativa al contenedor */
+  width: 500px;
+}
+
+.certCarrousel img {
+  width: 500px;
+  height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+  display: block; /* Asegura que la imagen se muestre como un bloque */
+}
+
+.prev_btn,
+.next_btn {
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #25374681;
+  color: #fdcf41;
+}
+
+.prev_btn {
+  left: 0; /* Ajusta la posición izquierda del botón prev */
+}
+
+.next_btn {
+  right: 0; /* Ajusta la posición derecha del botón next */
+}
+
+@media only screen and (max-width: 770px) {
+  .certifications {
+    margin-block: 15%;
+    padding: 1rem;
+  }
+
+  .certifications_img {
+    width: 100%;
+  }
+
+  .certifications_img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .certCarrousel {
+    display: flex;
+    width: 100%;
+  }
+
+  .certCarrousel img {
+    width: 100%;
+  }
+}

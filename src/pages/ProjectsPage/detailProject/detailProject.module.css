@@ -1,0 +1,207 @@
+.contain {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #dadada;
+}
+
+/* ----------backProjects */
+.backProjectsContain {
+  display: flex;
+  padding-left: 5%;
+  font-size: 2rem;
+  margin: 0;
+  width: 70%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+  border-bottom: #f6ba08 3px solid;
+}
+
+.backProjects {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.Link {
+  text-decoration: none;
+  color: #dadada;
+}
+.backProjects p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f6ba08;
+  position: absolute;
+  bottom: 25px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.backProjects p:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icondeploy {
+  display: flex;
+  justify-content: right;
+  /* width: 100%; */
+}
+.icondeploy img {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  width: 50px;
+  height: auto;
+}
+
+/* ----------backProjects */
+
+.title {
+  font-size: 5rem;
+  margin: 0;
+}
+
+.descriptionContain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+/*----------Carrousel---------- */
+.carousel {
+  position: relative;
+  width: 70%;
+  max-width: 80%;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+.carouselTrack {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  transform: translateX(calc(-100% * var(--current-slide)));
+}
+.slide {
+  min-width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+  display: none;
+  width: 90%;
+  height: 700px;
+  object-fit: fill;
+}
+.slide.active {
+  opacity: 1;
+  display: block;
+}
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1;
+}
+.prev {
+  left: 10px;
+}
+.next {
+  right: 10px;
+}
+/*----------Carrousel---------- */
+
+.videoProject {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.videoProject video {
+  width: 50%;
+}
+
+.tenologiesContain {
+  width: 90%;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+  margin-block: 2rem;
+}
+
+.tenologiesContain p {
+  margin: 0;
+}
+.tenologies {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+  .contain {
+    padding-top: 15%;
+  }
+
+  .backProjectsContain {
+    width: 100%;
+    padding: 0;
+  }
+  .backProjects {
+    padding-left: 1rem;
+  }
+
+  .carousel {
+    width: 100%;
+    max-width: 100%;
+  }
+  .slide {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .videoProject video {
+    width: 100%;
+  }
+
+  .tenologiesContain {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    
+  }
+
+  .tenologiesContain p {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .tenologies {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+}

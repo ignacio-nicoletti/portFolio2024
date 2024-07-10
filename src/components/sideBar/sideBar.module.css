@@ -1,0 +1,24 @@
+.contain {
+  background-color: #804e26;
+  width: 12%;
+  height: 100vh;
+  padding: 1rem;
+}
+
+.imageProfile {
+}
+.imageProfile img {
+  width: 100%;
+  border-radius: 2.5%;
+}
+
+.options{
+    color:#D69F72 ;
+}
+
+.options p {
+    cursor: pointer;
+    background-color: rgb(39, 37, 37);
+    padding: 0.5rem;
+    border-radius: 2.5%;
+}

@@ -1,0 +1,128 @@
+.contain {
+  color: #dadada;
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.name {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.name span {
+  font-size: 3rem;
+  cursor: default;
+  position: relative;
+  display: inline-block; /* Ensure span takes only necessary space */
+  margin-bottom: 1rem;
+}
+
+.name span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f6ba08;
+  position: absolute;
+  bottom: 0px; /* Adjust to position the underline close to the text */
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.name span:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.name button {
+  width: 30%;
+  font-size: 1.5rem;
+  background-color: #ffffff00;
+  border: #f6ba08 2px solid;
+  background-color: #f6ba08;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.imageProfile {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageProfile img {
+  width: 100%;
+  height: 500px;
+}
+
+.titleContain {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title,
+.description {
+  font-size: 1.5rem;
+  margin: 0;
+  padding-inline: 1rem;
+  transition: background-color 0.5s;
+}
+
+.title {
+  font-size: 2.2rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.description {
+  border-radius: 10px;
+  border-radius: 10px;
+}
+
+.titleContain:hover .title,
+.titleContain:hover .description {
+  background-color: #f6bb0876;
+}
+
+@media only screen and (max-width: 770px) {
+  .contain {
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    margin-top: 25%;
+  }
+  .name {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .imageProfile {
+    width: 100%;
+  }
+
+  .imageProfile img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .titleContain {
+    width: 100%;
+  }
+
+  .title,
+  .description {
+    text-align: center;
+  }
+}

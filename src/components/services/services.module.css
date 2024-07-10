@@ -1,0 +1,64 @@
+.ContainServices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5rem;
+  background-color: #171919
+}
+
+.ContainCardsServices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.cardContain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 300px;
+  height: 325px;
+  color: #dadada;
+  transition: 1s;
+  border: #f6ba08 5px solid;
+  border-radius: 10px;
+}
+
+.titleService {
+  font-size: 2rem;
+  color: #dadada;
+}
+.title {
+  font-size: 1.5rem;
+  color: #fdcf41;
+}
+
+.cardContain:hover {
+  transition: 1s;
+  border-bottom: #fdcf41 5px solid;
+}
+
+
+@media only screen and (max-width: 770px) {
+  .ContainServices {
+    padding: 1rem;
+    background-color: #171919
+  }
+  
+  
+  .cardContain {
+    padding: 1rem;
+    width:100%;
+    font-size: 1.2rem;
+  }
+  .icon,.title{
+    margin: 0;
+    padding: 0;
+  }
+  
+
+}

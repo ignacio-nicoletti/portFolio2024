@@ -1,0 +1,58 @@
+.contain {
+  /* padding-top: 10%; */
+}
+
+.circuit svg {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.path {
+  animation: draw 14s infinite;
+  animation-timing-function: linear;
+}
+
+.path-2 {
+  animation: draw 14s infinite;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+
+.circuit2 svg {
+  position: absolute;
+  top: -5%;
+  right: 0%;
+  transform:  translate(0%, 0%) rotate(180deg) scale(1);
+  z-index: -1;
+}
+
+.path2 {
+  animation: draw 14s infinite;
+  animation-timing-function: linear;
+}
+
+.path-2 {
+  animation: draw 14s infinite;
+  animation-delay: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes draw {
+  0% {
+  }
+  100% {
+    stroke-dashoffset: 0;
+    stroke-opacity: 1;
+  }
+}
+
+
+
+@media only screen and (max-width: 770px) {
+  .circuit,.circuit2{
+    display: none;
+  }
+}

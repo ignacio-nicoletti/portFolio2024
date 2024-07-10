@@ -1,0 +1,167 @@
+.contain {
+  padding-block: 5%;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #f6ba08;
+}
+
+.selected {
+  color: #f6ba08;
+  position: absolute;
+  bottom: 10px;
+}
+
+.filterProject {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.filterProject p {
+  display: inline-flex;
+  position: relative;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.filterProject p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f6ba08;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.filterProject p:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ProjectsContain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  border: #f6ba08 3px solid;
+  border-radius: 10px;
+  color: #dadada;
+}
+
+.icondeploy {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+.card img {
+  width: 100%;
+  height: 400px;
+}
+
+.icondeploy img {
+  padding-right: 1rem;
+  padding-top: 1rem;
+  width: 50px;
+  height: auto;
+}
+
+.titleProject {
+  color: #dadada;
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+.description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.tecnologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-size: 1.2rem;
+}
+
+.tecnologies p {
+  display: inline-flex;
+  position: relative;
+  font-size: 1.5rem;
+  cursor: default;
+}
+
+.tecnologies p::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f6ba08;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.tecnologies p:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 770px) {
+  .contain {
+    padding-block: 15%;
+  }
+
+  .filterProject p {
+    margin: 0;
+  }
+
+  .ProjectsContain {
+    padding: 1rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .description {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .tecnologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.2rem;
+  }
+
+  .tecnologies p {
+    margin: 0;
+  }
+}

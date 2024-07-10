@@ -23,7 +23,8 @@
   padding: 1rem;
   border-radius: 5px;
 }
-.boxContact p {
+.boxContact p,.boxContact a{
   color: #f6ba08;
+  text-decoration: none;
   margin: 0;
 }

@@ -15,6 +15,7 @@ import Guijama from "../Assets/Imagesprojects/guijama.jpg";
 import challengeBanco from "../Assets/Imagesprojects/challengeBanco.png";
 import challengeMarvel from "../Assets/Imagesprojects/challengeMarvel.png";
 import challengeWakeUp from "../Assets/Imagesprojects/challengeWakeUp.png";
+import portfolio2022 from "../Assets/Imagesprojects/portfolio2022.png";
 // -------------------------Portadas------------------
 
 const DBProyect = [
@@ -334,6 +335,24 @@ const DBProyect = [
     tecnologies: ["•ReactJs", "•CSS", "•TypeScript", "•EmailJs"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Drone-",
+    linkDeploy: "",
+    category: ["Todos", "Portfolios"],
+  },
+  {
+    title: "Portfolio-Nicoletti-2022",
+    shortDescription: "Portfolio realizado en 2022",
+    longDescription: "",
+    PortadaProject: portfolio2022,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720650933/portfolio/portfolios/m1dcupfgp5gofatxdq55.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720650933/portfolio/portfolios/vlsyetbocbfingdxigmi.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720650932/portfolio/portfolios/vqmunpubhciwa6cp2dze.png",
+    ],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1720650937/portfolio/portfolios/rlbcpzwjxo9yyyzv3ojw.mp4",
+    tecnologies: ["•ReactJs", "•CSS"],
+    deploy: false,
+    linkGitHub: "",
     linkDeploy: "",
     category: ["Todos", "Portfolios"],
   },

@@ -12,6 +12,9 @@ import tecno2 from "../Assets/Imagesprojects/tecno2.png";
 import thercarr from "../Assets/Imagesprojects/Thercarr.png";
 import TabacosLp from "../Assets/Imagesprojects/tabacoslp.png";
 import Guijama from "../Assets/Imagesprojects/guijama.jpg";
+import challengeBanco from "../Assets/Imagesprojects/challengeBanco.png";
+import challengeMarvel from "../Assets/Imagesprojects/challengeMarvel.png";
+import challengeWakeUp from "../Assets/Imagesprojects/challengeWakeUp.png";
 // -------------------------Portadas------------------
 
 const DBProyect = [
@@ -20,14 +23,14 @@ const DBProyect = [
     shortDescription: "App mobile para ver nuestros gastos.",
     longDescription:
       "App mobile que permite agregar un presupuesto y luego ir agregando gastos con detalles del mismo.",
-    PortadaProject: "https://res.cloudinary.com/dbu2biawj/image/upload/v1713811907/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
+    PortadaProject:
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1713811907/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758972/portfolio/GastosApp/dyqqwpch8q5i6uipakhy.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758971/portfolio/GastosApp/cfdemrzxugcqcc4efwti.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758973/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
     ],
-    videoProject:
-      "",
+    videoProject: "",
     tecnologies: [
       "•ReactJs",
       "•React-native",
@@ -38,7 +41,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/PlanGastosNative",
     linkDeploy: "",
-    category:["Todos","Sistema-de-gestion","Mobile"]
+    category: ["Todos", "Sistema-de-gestion", "Mobile"],
   },
   {
     title: "Guijama",
@@ -64,7 +67,7 @@ const DBProyect = [
     deploy: true,
     linkGitHub: "",
     linkDeploy: "https://distribuidora-guijama.vercel.app/",
-    category:["Todos","Sistema-de-gestion"]
+    category: ["Todos", "Sistema-de-gestion"],
   },
   {
     title: "TabacosLP",
@@ -92,7 +95,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "",
     linkDeploy: "",
-    category:["Todos","Sistema-de-gestion"]
+    category: ["Todos", "Sistema-de-gestion"],
   },
   {
     title: "Thercarr",
@@ -112,7 +115,7 @@ const DBProyect = [
     deploy: true,
     linkGitHub: "",
     linkDeploy: "https://www.thercarr.com.ar",
-    category:["Todos","LandingPage"]
+    category: ["Todos", "LandingPage"],
   },
   {
     title: "Karku",
@@ -133,7 +136,62 @@ const DBProyect = [
     deploy: true,
     linkGitHub: "",
     linkDeploy: "https://www.karku.com.ar",
-    category:["Todos","E-commerce"]
+    category: ["Todos", "E-commerce"],
+  },
+  {
+    title: "Challenge-Banco",
+    shortDescription:
+      "Prueba tecnica para ingreso a un banco, realizando el mapeo y navegacion sobre cuentas bancarias.",
+    longDescription: " ",
+    PortadaProject: challengeBanco,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640383/portfolio/challenges/upx2t0gym6rfwz9snbjm.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640383/portfolio/challenges/u445kbk9rfhwg4afzbz1.png",
+    ],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1720640388/portfolio/challenges/aokhqmb9nuohq21t11yj.mp4",
+    tecnologies: ["•ReactJs", "•CSS"],
+    deploy: false,
+    linkGitHub:
+      "https://github.com/ignacio-nicoletti/Challenges/tree/main/Challenge/Challenge-React",
+    linkDeploy: "",
+    category: ["Todos", "Challenges"],
+  },
+  {
+    title: "Challenge-Marvel",
+    shortDescription:
+      "Prueba tecnica poniendo en practica mapeo de informacion .",
+    longDescription: " ",
+    PortadaProject: challengeMarvel,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640676/portfolio/challenges/uilmow3zhj4xrvcl0qwe.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640385/portfolio/challenges/vkiqaucn9lt4xazweyev.png",
+    ],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1720640395/portfolio/challenges/sjwcrg4jjw7ot1jmp1ez.mp4",
+    tecnologies: ["•ReactJs", "•CSS"],
+    deploy: false,
+    linkGitHub:
+      "https://github.com/ignacio-nicoletti/Challenges/tree/main/challenge%20marvel",
+    linkDeploy: "",
+    category: ["Todos", "Challenges"],
+  },
+  {
+    title: "Challenge-WakeUp",
+    shortDescription:
+      "Prueba tecnica consumiendo un backend propiamente creado con mapeo de restaurantes y realizacion de encomiendas .",
+    longDescription: " ",
+    PortadaProject: challengeWakeUp,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720650476/portfolio/challenges/lhoq5psij1hfuupslyvh.png",
+    ],
+    videoProject: "",
+    tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•ExpresJs"],
+    deploy: false,
+    linkGitHub:
+      "https://github.com/ignacio-nicoletti/Challenges/tree/main/ChallengeWakeUp",
+    linkDeploy: "",
+    category: ["Todos", "Challenges"],
   },
   {
     title: "Advance_detailer",
@@ -163,7 +221,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Advance_detailer",
     linkDeploy: "",
-    category:["Todos","E-commerce"]
+    category: ["Todos", "E-commerce"],
   },
   {
     title: "NABIJASH",
@@ -190,7 +248,7 @@ const DBProyect = [
     deploy: true,
     linkGitHub: "",
     linkDeploy: "https://nabijash.vercel.app/",
-    category:["Todos","Sistema-de-gestion"]
+    category: ["Todos", "Sistema-de-gestion"],
   },
   {
     title: "VideoGames SPA",
@@ -211,7 +269,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/proyecto_individual",
     linkDeploy: "",
-    category:["Todos","Projects"]
+    category: ["Todos", "Projects"],
   },
   {
     title: "Juego de cartas",
@@ -229,7 +287,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Ta-Te-Ti-con-react-",
     linkDeploy: "",
-    category:["Todos","Game"]
+    category: ["Todos", "Game"],
   },
   {
     title: "Ta - Te - Ti",
@@ -244,7 +302,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Ta-Te-Ti-con-react-",
     linkDeploy: "",
-    category:["Todos","Game"]
+    category: ["Todos", "Game"],
   },
   {
     title: "Time-APP",
@@ -262,7 +320,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/TimeApp",
     linkDeploy: "",
-    category:["Todos","Projects"]
+    category: ["Todos", "Projects"],
   },
   {
     title: "Portfolio-Droner",
@@ -277,7 +335,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Drone-",
     linkDeploy: "",
-    category:["Todos","Portfolios"]
+    category: ["Todos", "Portfolios"],
   },
   {
     title: "Store",
@@ -291,7 +349,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/storeAPP-nextJS",
     linkDeploy: "",
-    category:["Todos","E-commerce"]
+    category: ["Todos", "E-commerce"],
   },
   {
     title: "App de turnos",
@@ -306,7 +364,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/nailsPage",
     linkDeploy: "",
-    category:["Todos","Sistema-de-gestion"]
+    category: ["Todos", "Sistema-de-gestion"],
   },
   {
     title: "Proyecto final tecnología II",
@@ -322,7 +380,7 @@ const DBProyect = [
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/tecnologia-2FBA",
     linkDeploy: "",
-    category:["Todos","Game"]
+    category: ["Todos", "Game"],
   },
 ];
 

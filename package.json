@@ -2,6 +2,7 @@
   "name": "portfolio2024",
   "version": "0.1.0",
   "private": true,
+  "author": "ignacio-nicoletti",
   "dependencies": {
     "@tabler/icons-react": "^3.7.0",
     "@testing-library/jest-dom": "^5.17.0",

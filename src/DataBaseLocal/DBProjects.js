@@ -24,8 +24,7 @@ const DBProyect = [
     title: "Plataforma de juegos",
     shortDescription:
       "Plataforma de juegos creada con sockets para tiempo real, se mantiene en construccion y contiene Berenejena, Poker y carrera de caballos con cartas. Se puede tener una cuenta para subir de nivel y sino como invitado.",
-    longDescription:
-      "",
+    longDescription: "",
     PortadaProject: cardGame,
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720729614/portfolio/Games/fyifsuarvhjxycgaon1o.png",
@@ -63,6 +62,31 @@ const DBProyect = [
     linkGitHub: "https://github.com/ignacio-nicoletti/PlanGastosNative",
     linkDeploy: "",
     category: ["Todos", "Sistema-de-gestion", "Mobile"],
+  },
+  {
+    title: "FaceTracker ",
+    shortDescription:
+      "Aplicacion pque trackea el rostro y en busca de similitudes con una foto para saber si esa persona es la misma que la imagen.",
+    longDescription: "",
+    PortadaProject: Guijama,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/jm0wehmamzphy3rhr4jk.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/uzqvpbwlsat5fip1foss.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373623/portfolio/guijama/gim5ubhmsvimjudjso0e.png",
+    ],
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1711373228/portfolio/guijama/r19r1260u0e7zeimjxgu.mp4",
+    tecnologies: [
+      "•ReactJs",
+      "•Clmtrackr",
+      "•face-api",
+      "•react-webcam",
+      "•tracking",
+    ],
+    deploy: true,
+    linkGitHub: "",
+    linkDeploy: "https://distribuidora-guijama.vercel.app/",
+    category: ["Todos", "Sistema-de-gestion"],
   },
   {
     title: "Guijama",

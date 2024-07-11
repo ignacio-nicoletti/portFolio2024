@@ -23,7 +23,7 @@ const DBProyect = [
   {
     title: "Plataforma de juegos",
     shortDescription:
-      "Plataforma de juegos creada con sockets para tiempo real, se mantiene en construccion y contiene Berenejena, Poker y carrera de caballos con cartas.",
+      "Plataforma de juegos creada con sockets para tiempo real, se mantiene en construccion y contiene Berenejena, Poker y carrera de caballos con cartas. Se puede tener una cuenta para subir de nivel y sino como invitado.",
     longDescription:
       "",
     PortadaProject: cardGame,

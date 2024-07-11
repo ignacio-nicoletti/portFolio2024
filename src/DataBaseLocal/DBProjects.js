@@ -16,9 +16,29 @@ import challengeBanco from "../Assets/Imagesprojects/challengeBanco.png";
 import challengeMarvel from "../Assets/Imagesprojects/challengeMarvel.png";
 import challengeWakeUp from "../Assets/Imagesprojects/challengeWakeUp.png";
 import portfolio2022 from "../Assets/Imagesprojects/portfolio2022.png";
+import cardGame from "../Assets/Imagesprojects/cardGame.png";
 // -------------------------Portadas------------------
 
 const DBProyect = [
+  {
+    title: "Plataforma de juegos",
+    shortDescription:
+      "Plataforma de juegos creada con sockets para tiempo real, se mantiene en construccion y contiene Berenejena, Poker y carrera de caballos con cartas.",
+    longDescription:
+      "",
+    PortadaProject: cardGame,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720729614/portfolio/Games/fyifsuarvhjxycgaon1o.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720729613/portfolio/Games/hihguh0ryvmam1iesii9.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720729721/portfolio/Games/ue3yftmwxasw0no1davu.png",
+    ],
+    videoProject: "",
+    tecnologies: ["•ReactJs", "•NodeJs", "•SocketIo", "•ExpressJs", "•MongoDB"],
+    deploy: false,
+    linkGitHub: "https://github.com/ignacio-nicoletti/PlanGastosNative",
+    linkDeploy: "",
+    category: ["Todos", "Game"],
+  },
   {
     title: "Planificador de gastos",
     shortDescription: "App mobile para ver nuestros gastos.",

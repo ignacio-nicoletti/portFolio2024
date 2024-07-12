@@ -67,7 +67,7 @@ const DBProyect = [
   {
     title: "FaceTracker ",
     shortDescription:
-      "Aplicacion pque trackea el rostro y en busca de similitudes con una foto para saber si esa persona es la misma que la imagen.",
+      "Aplicacion que trackea el rostro y en busca de similitudes con una foto para saber si esa persona es la misma que la imagen.",
     longDescription: "",
     PortadaProject: facetracker,
     MediaProject: [

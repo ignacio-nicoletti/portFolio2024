@@ -10,8 +10,6 @@
 
 .selected {
   color: #f6ba08;
-  position: absolute;
-  bottom: 10px;
 }
 
 .filterProject {

@@ -8,7 +8,7 @@ import {
 const dataEspañol = {
   navBarOptions: [
     { option: "Inicio", path: "/" },
-    { option: "Sobre Mi", path: "/#about" },
+    // { option: "Sobre Mi", path: "/#about" },
     { option: "Proyectos", path: "/projects" },
     { option: "Certificaciones", path: "/certifications" },
   ],

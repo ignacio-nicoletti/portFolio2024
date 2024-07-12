@@ -1,7 +1,7 @@
 import style from './contact.module.css';
 const Contact = ({lenguageEN}) => {
   return (
-    <div className={style.contain}>
+    <div className={style.contain} id="Contact">
       <p>{lenguageEN ? 'Contact' : 'Contacto'}</p>
 
       <div className={style.BoxContain}>

@@ -14,7 +14,10 @@
   width: 100%;
   top: 0;
 }
-
+.NameLogoContain a {
+  color: #f6ba08;
+  text-decoration: none;
+}
 .NameLogo {
   color: #f6ba08;
 }
@@ -188,9 +191,8 @@
   .optionsActive {
     display: none;
     justify-content: center;
-
   }
-  .options p{
+  .options p {
     margin: 0;
     padding: 0.5rem;
     font-size: 1.5rem;

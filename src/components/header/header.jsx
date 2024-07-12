@@ -4,10 +4,13 @@ import {dataEspañol, dataEnglish} from '../../DataBaseLocal/lenguage';
 
 const Header = ({lenguageEN}) => {
   return (
-    <div className={style.contain}>
+    <div id="Header" className={style.contain}>
       <div className={style.name}>
         <span>Ignacio Nicoletti</span>
-        <button>{lenguageEN?"Contact Me":"Contacto"}</button>
+        <a href="#Contact">
+
+          <button>{lenguageEN ? 'Contact Me' : 'Contacto'}</button>
+        </a>
       </div>
 
       <div className={style.imageProfile}>

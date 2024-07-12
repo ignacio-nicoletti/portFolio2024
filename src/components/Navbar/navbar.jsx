@@ -13,8 +13,10 @@ const Navbar = ({setLenguageEN, lenguageEN}) => {
     <div>
       <div className={style.contain}>
         <div className={style.navbarDesktop}>
-          <div>
-            <p className={style.NameLogo}>Ignacio Nicoletti</p>
+          <div className={style.NameLogoContain}>
+            <a href="/">
+              <p className={style.NameLogo}>Ignacio Nicoletti</p>
+            </a>
           </div>
           <div className={style.options}>
             <div className={style.languageSwitch}>
@@ -53,6 +55,7 @@ const Navbar = ({setLenguageEN, lenguageEN}) => {
             <a
               href={lenguageEN ? CurriculumEN : CurriculumES}
               className={style.buttonCV}
+              Target="_blank"
             >
               CV
             </a>
@@ -70,7 +73,7 @@ const Navbar = ({setLenguageEN, lenguageEN}) => {
               ? <img src={menuH} alt="" onClick={() => setMenu (false)} />
               : <img src={menuClose} alt="" onClick={() => setMenu (true)} />}
           </div>
-          
+
           <div className={menu ? style.optionsActive : style.options}>
             <div className={style.switch}>
               <input

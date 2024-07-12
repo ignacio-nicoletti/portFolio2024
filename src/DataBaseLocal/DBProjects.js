@@ -17,6 +17,7 @@ import challengeMarvel from "../Assets/Imagesprojects/challengeMarvel.png";
 import challengeWakeUp from "../Assets/Imagesprojects/challengeWakeUp.png";
 import portfolio2022 from "../Assets/Imagesprojects/portfolio2022.png";
 import cardGame from "../Assets/Imagesprojects/cardGame.png";
+import facetracker from "../Assets/Imagesprojects/facetracker.png";
 // -------------------------Portadas------------------
 
 const DBProyect = [
@@ -68,7 +69,7 @@ const DBProyect = [
     shortDescription:
       "Aplicacion pque trackea el rostro y en busca de similitudes con una foto para saber si esa persona es la misma que la imagen.",
     longDescription: "",
-    PortadaProject: Guijama,
+    PortadaProject: facetracker,
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/jm0wehmamzphy3rhr4jk.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/uzqvpbwlsat5fip1foss.png",

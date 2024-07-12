@@ -32,7 +32,8 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720729613/portfolio/Games/hihguh0ryvmam1iesii9.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720730017/portfolio/Games/unag6ud0c3m0rndczfrn.png",
     ],
-    videoProject: "",
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1720793690/portfolio/Games/k1fxqqgepadcqrfsodcx.mp4",
     tecnologies: ["•ReactJs", "•NodeJs", "•SocketIo", "•ExpressJs", "•MongoDB"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/GamesBoard",
@@ -70,11 +71,8 @@ const DBProyect = [
       "Aplicacion que trackea el rostro y en busca de similitudes con una foto para saber si esa persona es la misma que la imagen.",
     longDescription: "",
     PortadaProject: facetracker,
-    MediaProject: [
-      "",
-    ],
-    videoProject:
-      "",
+    MediaProject: [""],
+    videoProject: "",
     tecnologies: [
       "•ReactJs",
       "•Clmtrackr",

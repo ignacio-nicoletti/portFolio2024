@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   margin-bottom: 5rem;
   padding-top: 10%;
-  gap:50px
+  gap: 50px;
 }
 
 .name {
@@ -43,15 +43,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.name button {
-  font-size: 1.5rem;
-  background-color: #ffffff00;
-  border: #f6ba08 2px solid;
-  background-color: #f6ba08;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
 .imageProfile {
   display: flex;
   justify-content: center;
@@ -65,7 +56,7 @@
 }
 
 .titleContain {
-  width:500px;
+  width: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,7 +74,7 @@
 }
 
 .title {
-  font-size: 2.2rem;
+  font-size: 2rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -92,6 +83,44 @@
   background-color: #f6bb0876;
   transition: 2s;
   border-radius: 10px;
+}
+
+.titleContain button {
+  font-size: 1.5rem;
+  background-color: #ffffff00;
+  border: #f6ba08 2px solid;
+  background-color: #f6ba08;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.titleContain span {
+  font-size: 2rem;
+  cursor: default;
+  position: relative;
+  display: inline-block; /* Ensure span takes only necessary space */
+  margin-bottom: 1rem;
+}
+
+.titleContain span::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #f6ba08;
+  position: absolute;
+  bottom: 0px; /* Adjust to position the underline close to the text */
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.titleContain span:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 770px) {
@@ -123,5 +152,8 @@
   .title,
   .description {
     text-align: center;
+  }
+  .titleContain button {
+    margin-top: 2rem;
   }
 }

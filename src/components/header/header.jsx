@@ -7,10 +7,7 @@ const Header = ({lenguageEN}) => {
     <div id="Header" className={style.contain}>
       <div className={style.name}>
         <span>Ignacio Nicoletti</span>
-        <a href="#Contact">
-
-          <button>{lenguageEN ? 'Contact Me' : 'Contacto'}</button>
-        </a>
+        
       </div>
 
       <div className={style.imageProfile}>
@@ -18,14 +15,18 @@ const Header = ({lenguageEN}) => {
       </div>
 
       <div className={style.titleContain}>
-        <p className={style.title}>
+        <span className={style.title}>
           {lenguageEN ? dataEnglish.header.title : dataEspañol.header.title}
-        </p>
+        </span>
         <p className={style.description}>
           {lenguageEN
             ? dataEnglish.about.description
             : dataEspañol.about.description}
         </p>
+        <a href="#Contact">
+
+          <button>{lenguageEN ? 'Contact Me' : 'Contacto'}</button>
+        </a>
       </div>
     </div>
   );

@@ -225,9 +225,12 @@ const DBProyect = [
     longDescription: " ",
     PortadaProject: challengeWakeUp,
     MediaProject: [
-      "https://res.cloudinary.com/dbu2biawj/image/upload/v1720650476/portfolio/challenges/lhoq5psij1hfuupslyvh.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721046708/portfolio/challenges/wayayxincs6mwte7zgye.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721046708/portfolio/challenges/cw6zdhxk3xfictrc7j9f.png",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721046708/portfolio/challenges/bmzurps6egcplre5ipc0.png",
     ],
-    videoProject: "",
+    videoProject:
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1721047019/portfolio/challenges/zq8wlycnxnxa6hgws6xp.mp4",
     tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•ExpresJs"],
     deploy: false,
     linkGitHub:

@@ -18,9 +18,37 @@ import challengeWakeUp from "../Assets/Imagesprojects/challengeWakeUp.png";
 import portfolio2022 from "../Assets/Imagesprojects/portfolio2022.png";
 import cardGame from "../Assets/Imagesprojects/cardGame.png";
 import facetracker from "../Assets/Imagesprojects/facetracker.png";
+import graficoconexiones from "../Assets/Imagesprojects/graficoconexiones.png";
 // -------------------------Portadas------------------
 
 const DBProyect = [
+  {
+    title: "Simulador de volante Arduino",
+    shortDescription:
+      "Simulador casero creado con arduino, potenciometros, pulsadores, encoder e ideado con madera y reutilizacion de otro volante electronico",
+    longDescription: "",
+    PortadaProject: graficoconexiones,
+    MediaProject: [
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721849826/portfolio/simulador/wiqc0djyic5cluyk2hki.jpg",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721849389/portfolio/simulador/umt7h9dnqdz5it8o4xvs.jpg",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721849389/portfolio/simulador/lzh2ttb5mdqwinyjruwf.jpg",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721849387/portfolio/simulador/th9rskgcyvzgz5aainzu.jpg",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721849387/portfolio/simulador/oaabwzpu3ozvppkghf7q.jpg",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721849388/portfolio/simulador/pj6u3byxseerubt6ajlt.jpg",
+      "https://res.cloudinary.com/dbu2biawj/image/upload/v1721849387/portfolio/simulador/z9iz34idq01zbymzerx9.jpg",
+    ],
+    videoProject: [
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1721849595/portfolio/simulador/cnnosnqqsfzm1lktx3j5.mp4",
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1721849594/portfolio/simulador/e14gzu2muroau3i1817i.mp4",
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1721849594/portfolio/simulador/kcoqytohmpvob9ubjmv8.mp4",
+      "https://res.cloudinary.com/dbu2biawj/video/upload/v1721849595/portfolio/simulador/rwivqp9qwnmqhf2ajijj.mp4",
+    ],
+    tecnologies: ["•Arduino", "•Electrónica"],
+    deploy: false,
+    linkGitHub: "",
+    linkDeploy: "",
+    category: ["Todos"],
+  },
   {
     title: "Plataforma de juegos",
     shortDescription:
@@ -32,8 +60,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720729613/portfolio/Games/hihguh0ryvmam1iesii9.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720730017/portfolio/Games/unag6ud0c3m0rndczfrn.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1720793690/portfolio/Games/k1fxqqgepadcqrfsodcx.mp4",
+    ],
     tecnologies: ["•ReactJs", "•NodeJs", "•SocketIo", "•ExpressJs", "•MongoDB"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/GamesBoard",
@@ -52,7 +81,7 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758971/portfolio/GastosApp/cfdemrzxugcqcc4efwti.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1712758973/portfolio/GastosApp/o4infb6pcqb46ucsmthg.png",
     ],
-    videoProject: "",
+    videoProject: [""],
     tecnologies: [
       "•ReactJs",
       "•React-native",
@@ -72,7 +101,7 @@ const DBProyect = [
     longDescription: "",
     PortadaProject: facetracker,
     MediaProject: [""],
-    videoProject: "",
+    videoProject: [""],
     tecnologies: [
       "•ReactJs",
       "•Clmtrackr",
@@ -96,8 +125,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373624/portfolio/guijama/uzqvpbwlsat5fip1foss.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1711373623/portfolio/guijama/gim5ubhmsvimjudjso0e.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1711373228/portfolio/guijama/r19r1260u0e7zeimjxgu.mp4",
+    ],
     tecnologies: [
       "•ReactJs",
       "•ReactPDF",
@@ -124,8 +154,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1709139999/portfolio/TabacosLp/dhaxgwhmtu2mwljptgmj.png",
       "  https://res.cloudinary.com/dbu2biawj/image/upload/v1709140000/portfolio/TabacosLp/fk6jh8qj2uu2syza97hm.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1709139991/portfolio/TabacosLp/iymbgrxwyxnchet7ac81.mp4",
+    ],
     tecnologies: [
       "•ReactJs",
       "•CSS",
@@ -151,8 +182,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546201/portfolio/thercarr/relq2oudaehplsb46t6j.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706546200/portfolio/thercarr/tmyn2lk5je9difs0yaes.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1706547295/portfolio/thercarr/fy1piaobkzso2vo9kebi.mp4",
+    ],
     tecnologies: ["•ReactJs", "•CSS", "•AOS", "•JS"],
     deploy: true,
     linkGitHub: "",
@@ -172,8 +204,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1703257079/portfolio/karku/ozrlqkdnbfndtcjkhnvt.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1703257080/portfolio/karku/mxuws9qmmpegi4ln1qpy.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1703257201/portfolio/karku/uylwdvh2tibxcaak5e4k.mp4",
+    ],
     tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•MongoDB"],
     deploy: true,
     linkGitHub: "",
@@ -190,8 +223,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640383/portfolio/challenges/upx2t0gym6rfwz9snbjm.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640383/portfolio/challenges/u445kbk9rfhwg4afzbz1.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1720640388/portfolio/challenges/aokhqmb9nuohq21t11yj.mp4",
+    ],
     tecnologies: ["•ReactJs", "•CSS"],
     deploy: false,
     linkGitHub:
@@ -209,8 +243,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640676/portfolio/challenges/uilmow3zhj4xrvcl0qwe.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720640385/portfolio/challenges/vkiqaucn9lt4xazweyev.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1720640395/portfolio/challenges/sjwcrg4jjw7ot1jmp1ez.mp4",
+    ],
     tecnologies: ["•ReactJs", "•CSS"],
     deploy: false,
     linkGitHub:
@@ -229,8 +264,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1721046708/portfolio/challenges/cw6zdhxk3xfictrc7j9f.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1721046708/portfolio/challenges/bmzurps6egcplre5ipc0.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1721047019/portfolio/challenges/zq8wlycnxnxa6hgws6xp.mp4",
+    ],
     tecnologies: ["•ReactJs", "•CSS", "•NodeJs", "•ExpresJs"],
     deploy: false,
     linkGitHub:
@@ -250,8 +286,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1697634891/portfolio/advance/qqjihsams84cx39g0733.png",
     ],
     // videoProject: advanceVideo,
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1697636201/portfolio/advance/bddljmo0wner2mtciq68.mp4",
+    ],
 
     longDescription:
       " E-Comerce con LandingPage realizado para el rubro automotriz especificamente en la estetica, aportando informacion al usuario a cerca de trabajos realizados, venta de productos y compra de los mismos utilizando mercado Pago.",
@@ -280,8 +317,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706798091/portfolio/nabijash/fcttxzvdvxwm0owk1s6f.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1706798092/portfolio/nabijash/fu7qyrgnnyllwadbg5fx.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1697636635/portfolio/nabijash/dxmuv60bxuyob6y368tq.mp4",
+    ],
     tecnologies: [
       "•NodeJs",
       "•ExpressJs",
@@ -308,8 +346,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1697635009/portfolio/pi/uunijkpsr5o61lxstgfp.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1697635007/portfolio/pi/brgjyac5ok38untlpjf2.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1697634026/portfolio/lqnzcc4l2van5gnwg3f5.mp4",
+    ],
     tecnologies: ["•ReactJs", "•Redux", "•NodeJs", "•Sequelize", "•PostgreSQL"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/proyecto_individual",
@@ -326,8 +365,7 @@ const DBProyect = [
     MediaProject: [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1697635116/portfolio/berenjena/gi609xkyjk95bgec7h96.png",
     ],
-
-    videoProject: "",
+    videoProject: [""],
     tecnologies: ["•NextJs", "•JavaScript", "•CSS", "•Socket.io"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Ta-Te-Ti-con-react-",
@@ -342,7 +380,7 @@ const DBProyect = [
       "Juego creado para la práctica de libreria socketIo, basado en turnos y lograr completar un 3 en linea antes que el rival lo consiga.",
     PortadaProject: proceso,
     MediaProject: [],
-    videoProject: "",
+    videoProject: [""],
     tecnologies: ["•ReactJs", "•JavaScript", "•CSS", "•Socket.io"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Ta-Te-Ti-con-react-",
@@ -360,7 +398,7 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1697637691/portfolio/weatherapp/c9enunroeowma61jdysv.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1697637690/portfolio/weatherapp/bxnb8lay3yxlj7fzy3a0.png",
     ],
-    videoProject: "",
+    videoProject: [""],
     tecnologies: ["•ReactJs", "•JavaScript", "•CSS", "•HTML"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/TimeApp",
@@ -375,7 +413,7 @@ const DBProyect = [
       "Portfolio diseñado para una persona especializada en el manejo de drones, aportando videos de sus proyectos y una descripcion de si.",
     PortadaProject: Drone,
     MediaProject: [],
-    videoProject: "",
+    videoProject: [""],
     tecnologies: ["•ReactJs", "•CSS", "•TypeScript", "•EmailJs"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/Drone-",
@@ -392,8 +430,9 @@ const DBProyect = [
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720650933/portfolio/portfolios/vlsyetbocbfingdxigmi.png",
       "https://res.cloudinary.com/dbu2biawj/image/upload/v1720650932/portfolio/portfolios/vqmunpubhciwa6cp2dze.png",
     ],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1720650937/portfolio/portfolios/rlbcpzwjxo9yyyzv3ojw.mp4",
+    ],
     tecnologies: ["•ReactJs", "•CSS"],
     deploy: false,
     linkGitHub: "",
@@ -407,7 +446,7 @@ const DBProyect = [
       "Aplicación desarrollada para interiorizarme en el uso del Framework NextJs, en ella se puede visualizar productos de venta, poder agregarlos a un carrito o en su defecto eliminarlos del carrito y saber el total a pagar.",
     PortadaProject: Store,
     MediaProject: [],
-    videoProject: "",
+    videoProject: [""],
     tecnologies: ["•NextJS", "•CSS", "•JavaScript", "•HTML"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/storeAPP-nextJS",
@@ -422,7 +461,7 @@ const DBProyect = [
       "Aplicación desarrollada para comercio de estética, en el cual dispone la posibilidad de marcar el servicio, fecha y horario, esta envía un email al admin para luego confirmar el turno.",
     PortadaProject: Nails,
     MediaProject: [],
-    videoProject: "",
+    videoProject: [""],
     tecnologies: ["•NextJS", "•CSS", "•JavaScript", "•Emailjs"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/nailsPage",
@@ -437,8 +476,9 @@ const DBProyect = [
       "Se realizó un proyecto grupal utilizando Processing y Tuio, programa que mediante un patrón trackea su posición entre ciertos parámetros. El juego consiste en derrotar una hydra de 3 cabezas, cubriendo/esquivando sus ataques y disparando flechas.",
     PortadaProject: tecno2,
     MediaProject: [],
-    videoProject:
+    videoProject: [
       "https://res.cloudinary.com/dbu2biawj/video/upload/v1697640815/portfolio/tecno2/cbh9psaj0v11bobqanwi.mp4",
+    ],
     tecnologies: ["•Processing", "•Java", "•Tuio", "•POO"],
     deploy: false,
     linkGitHub: "https://github.com/ignacio-nicoletti/tecnologia-2FBA",

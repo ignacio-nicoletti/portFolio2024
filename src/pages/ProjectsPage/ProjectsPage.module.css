@@ -63,6 +63,8 @@
   border: #f6ba08 3px solid;
   border-radius: 10px;
   color: #dadada;
+  text-align: center;
+
 }
 
 .icondeploy {
@@ -145,6 +147,8 @@
 
   .card {
     width: 100%;
+
+    text-align: center;
   }
 
   .description {
